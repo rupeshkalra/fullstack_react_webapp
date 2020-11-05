@@ -9,22 +9,6 @@ class Contact extends Component{
     constructor(props)
     {
         super(props);
-
-        this.state={
-            firstname: '',
-            lastname: '',
-            telnum: '',
-            email: '',
-            agree: false,
-            contactType: 'Tel.',
-            message: '',
-            touched: {
-                firstname: false,
-                lastname: false,
-                telnum: false,
-                email: false
-            }
-        };
         
         this.handleSubmit = this.handleSubmit.bind(this);
     }
